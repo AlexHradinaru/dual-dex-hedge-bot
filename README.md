@@ -125,6 +125,30 @@ The bot implements a delta-neutral strategy:
 - Use secure methods to store private keys
 - Regularly rotate API keys and secrets
 - Monitor API usage and rate limits
+- Keep your Ethereum private key secure and never share it
+- Use environment variables for all sensitive data
+- Consider using a hardware wallet for additional security
+- Regularly audit your API key permissions
+
+### Security Best Practices
+
+1. **API Key Management**
+   - Store API keys in environment variables
+   - Use different API keys for development and production
+   - Set appropriate permissions for API keys
+   - Regularly rotate API keys
+
+2. **Private Key Security**
+   - Never commit private keys to the repository
+   - Use hardware wallets when possible
+   - Consider using a key management service
+   - Keep private keys encrypted when stored
+
+3. **Environment Security**
+   - Use separate environments for testing and production
+   - Regularly update dependencies
+   - Monitor for suspicious activity
+   - Implement rate limiting
 
 ## Contributing
 
